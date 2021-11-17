@@ -9,8 +9,8 @@ const Play = ({ setMyChoice }) => {
 
   return (
     <div className="play">
-      <img src={Triangle} alt="" className="triangle" />
-      <div className="items">
+      {/* <img src={Triangle} alt="" className="triangle" />
+      <div className="items"> */}
         <Link to="/game">
           <div
             data-id="paper"
@@ -36,7 +36,7 @@ const Play = ({ setMyChoice }) => {
           Rock
         </Link>
       </div>
-    </div>
+    //</div>
   );
 };
 

@@ -17,7 +17,6 @@ const Play = ({ setMyChoice }) => {
             onClick={setChoice}
             className="icon icon--paper"
           ></div>
-          Paper
         </Link>
         <Link to="/game">
           <div
@@ -25,7 +24,6 @@ const Play = ({ setMyChoice }) => {
             onClick={setChoice}
             className="icon icon--scissors"
           ></div>
-          Scissors
         </Link>
         <Link to="/game">
           <div
@@ -33,7 +31,6 @@ const Play = ({ setMyChoice }) => {
             onClick={setChoice}
             className="icon icon--rock"
           ></div>
-          Rock
         </Link>
       </div>
     </div>
